@@ -65,7 +65,7 @@ The tasks will be executed after each other:
 
 - First `configure` because it has no dependencies.
 - Then `build` as it only depends on `configure`.
-- Then `start` as all it dependencies are run.
+- Then `start` as all its dependencies are run.
 
 If one of the commands fails (exit with non-zero code.) it will stop and the next one will not be started.
 
